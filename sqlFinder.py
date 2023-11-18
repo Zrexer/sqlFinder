@@ -50,6 +50,7 @@ class sqlFinder:
         
         for results in googlesearch.search(self.all_, self.rn, self.l):
             pystyle.Write.Print(results, pystyle.Colors.purple_to_red, 0)
+            print()
 
 
 class Session:
